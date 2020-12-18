@@ -1,0 +1,121 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:serif;
+    text-decoration: none;
+}
+body{
+    background: linear-gradient( 90deg, #000000, #050505,#0C0C0C,#131313,#545454);  
+    
+}
+/*logo del menu*/
+#logo{
+    align-items: center;
+    width: 120px;
+    margin: 5px;
+    background-color: #857751;
+    border-radius: 100px;
+}
+/* letras Panaderia*/
+.segunda_linea{
+    width: 200px;
+    border-radius: 20px;
+    justify-content: center;
+}
+.contenedor_productos button{
+    margin-top: 10px;
+    margin-right: 10px;
+    background-color: #F5E39D;
+    border-radius: 20px;
+    
+}
+
+.numeros{
+    text-align: center;
+ 
+}
+  .numeros button {
+    margin: 3px;
+    width: 50px;
+    height: 60px;
+    border-radius: 30px;
+    background-color:#CFB365;
+    border: none;   
+  }
+
+  #cantidad {
+    color: #eee;
+  }
+
+/*css del menu*/
+  /*fondo del menu*/
+  .sidenav {
+    height: 100%; 
+    width: 0; 
+    position: fixed; 
+    z-index: 2; 
+    top: 0; 
+    left: 0;/*estaba en cero*/
+    background-color: rgb(0, 0, 0); 
+    overflow-x: hidden; 
+    padding-top: 20px;
+    transition: 0.5s; 
+  }
+  
+  /*letras del menu*/
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(145, 145, 145);
+    display: block;
+    transition: 0.3s;
+  }
+  
+ /*color al seleccionar */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+ /*el cierre del menu*/
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+ /*trancicion del menu*/
+  #main {
+    position: fixed;
+    top: 4px;
+    right: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1px;
+    z-index: 100;
+    opacity: .9;
+    transition: margin-left .8s;
+    border-radius: 30px;
+    padding: 5px;
+  }
+  @media screen and (max-height: 100px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 20px;}
+  }
+#clientes button{
+    margin: 5px;
+    border-radius: 20px;
+    background-color: yellow;
+}
+#tablee{
+    background-color: #CFB365;
+    border-radius: 20px;
+    
+}
+#lista_productos{
+  padding: 7px;
+}
